@@ -10,7 +10,7 @@ export function Hero () {
         <section className="flex gap-x-4 md:flex-row flex-col items-center justify-center p-8 min-h-screen align-middle">
             <div>
                 <h1 className="text-4xl md:text-6xl font-extrabold mb-2 md:w-2.5/3">
-                    Hello, I'm <span className="text-teal-500">Emmanuel Akanmu</span>.
+                    Hello, { `I'm` } <span className="text-teal-500">Emmanuel Akanmu</span>.
                 </h1>
                 <p className="text-xl md:text-2xl font-light mb-8 max-w-2xl">
                     A passionate software developer creating beautiful, responsive, and high-performance web applications. <br/>An aspiring designer and web developer

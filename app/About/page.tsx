@@ -1,14 +1,12 @@
-
-
-
-export default function About(){
+import Image from "next/image"
+export function About(){
     return(
-        <div className="container mx-auto px-6 py-12">
+        <div id="About" className="container mx-auto px-6 py-12">
             <h1 className="text-4xl font-bold text-center text-teal-500 mb-12">About Me</h1>
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/3 flex justify-center">
                 <div className="w-64 h-64 rounded-lg overflow-hidden border-4 border-gray-700">
-                  <img src="/image.png" alt=" Emmanuel Akanmu" className="w-full h-full object-cover" />
+                  <Image src="/image.png"  width={500} height={700} alt=" Emmanuel Akanmu" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="md:w-2/3">
