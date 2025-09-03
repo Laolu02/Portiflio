@@ -11,7 +11,7 @@ export function Projectss (){
                 {
                     Projects.map((Project) => (
                         <div key={Project.id} className="bg-gray-800 rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow">
-                            <Image src={Project.image} alt={Project.name} width={48} height={48} className="w-full h-48 object-cover" />
+                            <Image src={Project.image} alt={Project.name} width={600} height={400} className="w-full h-48 object-cover" />
                             <div className="p-4">
                                 <h3 className="text-xl font-semibold mb-2">{Project.name}</h3>
                                 <p className="text-gray-400 text-sm mb-4">{Project.description}</p>

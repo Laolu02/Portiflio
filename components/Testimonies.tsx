@@ -14,7 +14,7 @@ export function Testimonials(){
                         >
                         <FaQuoteLeft className="text-3xl text-teal-500 mb-4" />
                         <div className="py-1 px-0.3">
-                            <p className="italic text-lg mb-4">"{Testimonie.quote}"</p>
+                            <p className="italic text-lg mb-4">“{Testimonie.quote}”</p>
                             <p className="font-semibold text-teal-400">{Testimonie.name}</p>
                             <p className="text-sm text-gray-400">{Testimonie.title}</p>
                         </div>

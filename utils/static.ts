@@ -133,7 +133,7 @@ export const Testimonies=[
   },
   {
     id: 2,
-    quote: "Emmanuel is a fast learner and consistently delivers clean, maintainable code. He’s a valuable addition to any team.",
+    quote: "Emmanuel is a fast learner and consistently delivers clean, maintainable code. He is a valuable addition to any team.",
     name: "David Thompson",
     title: "Senior Software Engineer at CodeCraft"
   },
@@ -145,7 +145,7 @@ export const Testimonies=[
   },
   {
     id: 4,
-    quote: "Emmanuel demonstrates a strong passion for coding and problem-solving. He’s quickly becoming a reliable developer.",
+    quote: "Emmanuel demonstrates a strong passion for coding and problem-solving. He is quickly becoming a reliable developer.",
     name: "Michael Rodriguez",
     title: "CTO at NextGen Labs"
   },
@@ -163,13 +163,13 @@ export const Testimonies=[
   },
   {
     id: 7,
-    quote: "Emmanuel’s attention to detail and willingness to collaborate make him stand out as a growing developer.",
+    quote: "Emmanuel attention to detail and willingness to collaborate make him stand out as a growing developer.",
     name: "Olivia Johnson",
     title: "Senior Frontend Engineer at PixelWave"
   },
   {
     id: 8,
-    quote: "Emmanuel is always eager to contribute and has a great sense for problem-solving. He’s on a strong path as a developer.",
+    quote: "Emmanuel is always eager to contribute and has a great sense for problem-solving. He is on a strong path as a developer.",
     name: "Grace Miller",
     title: "Team Lead at SoftCore Systems"
   },
@@ -193,7 +193,7 @@ export const Projects=[
     name: ' Vensdr E-commerce Platform',
     description: 'A backend e-commerce platform with user authentication, caching and rate limit implementation.Empower your business with a secure, mobile-friendly store, fast payment setup, and sales analytics all in one place.',
     image: '/Vendsr.png',
-    tags: ['Express JS'],
+    tags: ['Express JS React'],
     link: 'https://repro123.github.io/Vendsr-frontend/',
     github: 'https://github.com/Laolu02/vendsr-backend.git',
   },

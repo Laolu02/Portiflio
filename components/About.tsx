@@ -6,7 +6,7 @@ export function About(){
             <div className="flex flex-col md:flex-row items-center gap-8">
               <div className="md:w-1/3 flex justify-center">
                 <div className="w-64 h-64 rounded-lg overflow-hidden border-4 border-gray-700">
-                  <Image src="/image.png"  width={48} height={48} alt=" Emmanuel Akanmu" className="w-full h-full object-cover" />
+                  <Image src="/image.png"  width={500} height={700} alt=" Emmanuel Akanmu" className="w-full h-full object-cover" />
                 </div>
               </div>
               <div className="md:w-2/3">
