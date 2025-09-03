@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react";
 import Link from "next/link"
+import Image from "next/image";
 import { IoReorderThreeOutline } from "react-icons/io5";
 export function NavBar(){
     const [isOpen, setIsOpen] = useState(false);
@@ -8,7 +9,7 @@ export function NavBar(){
         <header className="bg-gray-600 sticky top-0 z-50 flex justify-between items-center px-6 py-4 md:px-12 h-14 shadow-md w-full max-w-[90vw] mx-auto rounded-md">
             <h1 className="flex items-center">
                 <Link href="#Home" className="hover:text-teal-400 transition">
-                    <img src="/icon.png" alt="Icon" className="max-h-14 w-auto object-contain" />
+                    <Image src="/icon.png" alt="Icon" width={48} height={48}  className="max-h-14 w-auto object-contain" />
                 </Link>
             </h1>
             <nav className="hidden md:flex gap-6 text-white font-medium">

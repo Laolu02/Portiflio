@@ -30,4 +30,9 @@ body {
   height: 90%;
   justify-content: center;
   align-content: center;
+  body {
+  background: linear-gradient(to bottom right, #111827, #1f2937);
+  /* Tailwind equivalent: bg-gradient-to-br from-gray-900 to-gray-800 */
+  color: #e5e7eb;
+}
 }

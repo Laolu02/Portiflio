@@ -1,4 +1,5 @@
 import Head from "next/head"
+import Image from "next/image"
 
 export function Hero () {
     return(
@@ -16,7 +17,7 @@ export function Hero () {
                 </p>
             </div>
             <div className="w-60 h-70 rounded-xs overflow-hidden border-2 border-teal-500 mb-6">
-                <img src="/logo.jpeg" alt="Profile photo" className="w-full h-full object-cover"/>
+                <Image src="/logo.jpeg" alt="Profile photo" width={48} height={48} className="w-full h-full object-cover"/>
             </div>
         </section>
         </>
