@@ -1,5 +1,5 @@
 import Image from "next/image"
-export function About(){
+export default function About(){
     return(
         <div id="About" className="container mx-auto px-6 py-12">
             <h1 className="text-4xl font-bold text-center text-teal-500 mb-12">About Me</h1>
